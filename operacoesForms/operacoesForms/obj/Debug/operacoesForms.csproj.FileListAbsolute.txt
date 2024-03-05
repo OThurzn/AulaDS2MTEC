@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\bin\Debug\operacoesForms.exe.config
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\bin\Debug\operacoesForms.exe
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\bin\Debug\operacoesForms.pdb
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.Form1.resources
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.exe
+C:\Users\ds-etim-2\Desktop\DS\operacoesForms\operacoesForms\obj\Debug\operacoesForms.pdb

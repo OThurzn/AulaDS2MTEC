@@ -1,0 +1,6 @@
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\bin\Debug\exemploRevisao.exe.config
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\bin\Debug\exemploRevisao.exe
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\bin\Debug\exemploRevisao.pdb
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\obj\Debug\exemploRevisao.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\obj\Debug\exemploRevisao.exe
+C:\Users\ds-etim-2\Desktop\DS\exemploRevisao\exemploRevisao\obj\Debug\exemploRevisao.pdb

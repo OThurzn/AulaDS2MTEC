@@ -1,0 +1,6 @@
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\bin\Debug\CalculadoraDias.exe.config
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\bin\Debug\CalculadoraDias.exe
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\bin\Debug\CalculadoraDias.pdb
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\obj\Debug\CalculadoraDias.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\obj\Debug\CalculadoraDias.exe
+C:\Users\ds-etim-2\Desktop\DS\CalculadoraDias\CalculadoraDias\obj\Debug\CalculadoraDias.pdb

@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\bin\Debug\NotaPonderadaForms.exe.config
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.Form1.resources
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\bin\Debug\NotaPonderadaForms.exe
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\bin\Debug\NotaPonderadaForms.pdb
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.exe
+C:\Users\ds-etim-2\Desktop\DS\NotaPonderadaForms\NotaPonderadaForms\obj\Debug\NotaPonderadaForms.pdb

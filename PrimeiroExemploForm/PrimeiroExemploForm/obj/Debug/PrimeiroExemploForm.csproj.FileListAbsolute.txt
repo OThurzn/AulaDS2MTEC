@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\bin\Debug\PrimeiroExemploForm.exe.config
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\bin\Debug\PrimeiroExemploForm.exe
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\bin\Debug\PrimeiroExemploForm.pdb
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.Form1.resources
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.exe
+C:\Users\ds-etim-2\Desktop\DS\PrimeiroExemploForm\PrimeiroExemploForm\obj\Debug\PrimeiroExemploForm.pdb

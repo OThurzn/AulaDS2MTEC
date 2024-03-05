@@ -1,0 +1,6 @@
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\bin\Debug\notaPonderada.exe.config
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\obj\Debug\notaPonderada.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\bin\Debug\notaPonderada.exe
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\bin\Debug\notaPonderada.pdb
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\obj\Debug\notaPonderada.exe
+C:\Users\ds-etim-2\Desktop\DS\notaPonderada\notaPonderada\obj\Debug\notaPonderada.pdb

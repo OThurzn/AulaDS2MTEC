@@ -1,0 +1,6 @@
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\bin\Debug\VotosPorcentagem.exe.config
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\obj\Debug\VotosPorcentagem.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\bin\Debug\VotosPorcentagem.exe
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\bin\Debug\VotosPorcentagem.pdb
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\obj\Debug\VotosPorcentagem.exe
+C:\Users\ds-etim-2\Desktop\DS\VotosPorcentagem\VotosPorcentagem\obj\Debug\VotosPorcentagem.pdb
