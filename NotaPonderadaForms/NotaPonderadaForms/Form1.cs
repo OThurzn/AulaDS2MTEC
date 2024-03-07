@@ -27,6 +27,5 @@ namespace NotaPonderadaForms
             media = ((2 * prova1) + (3 * prova2) + (5 * prova3)) / 10;
             txt_total.Text = media.ToString();
         }
-
     }
 }

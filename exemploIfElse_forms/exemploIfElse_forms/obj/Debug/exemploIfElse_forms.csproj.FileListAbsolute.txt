@@ -7,3 +7,12 @@ C:\Users\ds-etim-2\Desktop\DS\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\
 C:\Users\ds-etim-2\Desktop\DS\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.csproj.GenerateResource.Cache
 C:\Users\ds-etim-2\Desktop\DS\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.exe
 C:\Users\ds-etim-2\Desktop\DS\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\bin\Debug\exemploIfElse_forms.exe.config
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\bin\Debug\exemploIfElse_forms.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\bin\Debug\exemploIfElse_forms.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.Form1.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\exemploIfElse_forms\exemploIfElse_forms\obj\Debug\exemploIfElse_forms.csproj.GenerateResource.Cache

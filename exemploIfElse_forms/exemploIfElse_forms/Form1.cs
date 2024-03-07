@@ -37,5 +37,11 @@ namespace exemploIfElse_forms
             }
 
         }
+        private void Form1_Click_1(object sender, EventArgs e)
+        {
+            rdb_manha.Checked = false;
+            rdb_tarde.Checked = false;
+            rdb_noite.Checked = false;
+        }
     }
 }

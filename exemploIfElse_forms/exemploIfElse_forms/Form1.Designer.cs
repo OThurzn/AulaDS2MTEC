@@ -32,6 +32,7 @@
             this.rdb_tarde = new System.Windows.Forms.RadioButton();
             this.rdb_noite = new System.Windows.Forms.RadioButton();
             this.btn_escolha = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // rdb_manha
@@ -41,7 +42,6 @@
             this.rdb_manha.Name = "rdb_manha";
             this.rdb_manha.Size = new System.Drawing.Size(58, 17);
             this.rdb_manha.TabIndex = 0;
-            this.rdb_manha.TabStop = true;
             this.rdb_manha.Text = "Manhã";
             this.rdb_manha.UseVisualStyleBackColor = true;
             // 
@@ -67,7 +67,7 @@
             // 
             // btn_escolha
             // 
-            this.btn_escolha.Location = new System.Drawing.Point(306, 53);
+            this.btn_escolha.Location = new System.Drawing.Point(140, 79);
             this.btn_escolha.Name = "btn_escolha";
             this.btn_escolha.Size = new System.Drawing.Size(75, 23);
             this.btn_escolha.TabIndex = 3;
@@ -75,17 +75,28 @@
             this.btn_escolha.UseVisualStyleBackColor = true;
             this.btn_escolha.Click += new System.EventHandler(this.btn_escolha_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(14, 25);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(205, 111);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Escolha o periodo";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 290);
+            this.ClientSize = new System.Drawing.Size(232, 150);
             this.Controls.Add(this.btn_escolha);
             this.Controls.Add(this.rdb_noite);
             this.Controls.Add(this.rdb_tarde);
             this.Controls.Add(this.rdb_manha);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Click += new System.EventHandler(this.Form1_Click_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,6 +108,7 @@
         private System.Windows.Forms.RadioButton rdb_tarde;
         private System.Windows.Forms.RadioButton rdb_noite;
         private System.Windows.Forms.Button btn_escolha;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
