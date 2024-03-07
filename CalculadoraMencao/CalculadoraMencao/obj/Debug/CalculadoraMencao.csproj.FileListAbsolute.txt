@@ -7,3 +7,12 @@ C:\Users\ds-etim-2\Desktop\DS\CalculadoraMencao\CalculadoraMencao\obj\Debug\Calc
 C:\Users\ds-etim-2\Desktop\DS\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.csproj.GenerateResource.Cache
 C:\Users\ds-etim-2\Desktop\DS\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.exe
 C:\Users\ds-etim-2\Desktop\DS\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\bin\Debug\CalculadoraMencao.exe.config
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\bin\Debug\CalculadoraMencao.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\bin\Debug\CalculadoraMencao.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.Form1.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\CalculadoraMencao\CalculadoraMencao\obj\Debug\CalculadoraMencao.csproj.GenerateResource.Cache
