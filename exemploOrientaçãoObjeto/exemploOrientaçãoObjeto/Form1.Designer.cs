@@ -34,13 +34,16 @@
             this.txt_num1 = new System.Windows.Forms.TextBox();
             this.txt_num2 = new System.Windows.Forms.TextBox();
             this.txt_resultado = new System.Windows.Forms.TextBox();
-            this.btn_somar = new System.Windows.Forms.Button();
+            this.divisao = new System.Windows.Forms.Button();
+            this.multiplicacao = new System.Windows.Forms.Button();
+            this.subtracao = new System.Windows.Forms.Button();
+            this.soma = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 13);
+            this.label1.Location = new System.Drawing.Point(9, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 0;
@@ -49,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 58);
+            this.label2.Location = new System.Drawing.Point(9, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 1;
@@ -58,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 98);
+            this.label3.Location = new System.Drawing.Point(9, 105);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 2;
@@ -66,41 +69,77 @@
             // 
             // txt_num1
             // 
-            this.txt_num1.Location = new System.Drawing.Point(27, 30);
+            this.txt_num1.Location = new System.Drawing.Point(12, 37);
             this.txt_num1.Name = "txt_num1";
-            this.txt_num1.Size = new System.Drawing.Size(100, 20);
+            this.txt_num1.Size = new System.Drawing.Size(92, 20);
             this.txt_num1.TabIndex = 3;
             // 
             // txt_num2
             // 
-            this.txt_num2.Location = new System.Drawing.Point(27, 75);
+            this.txt_num2.Location = new System.Drawing.Point(12, 82);
             this.txt_num2.Name = "txt_num2";
-            this.txt_num2.Size = new System.Drawing.Size(100, 20);
+            this.txt_num2.Size = new System.Drawing.Size(92, 20);
             this.txt_num2.TabIndex = 4;
             // 
             // txt_resultado
             // 
-            this.txt_resultado.Location = new System.Drawing.Point(27, 115);
+            this.txt_resultado.Location = new System.Drawing.Point(12, 122);
             this.txt_resultado.Name = "txt_resultado";
-            this.txt_resultado.Size = new System.Drawing.Size(100, 20);
+            this.txt_resultado.Size = new System.Drawing.Size(92, 20);
             this.txt_resultado.TabIndex = 5;
             // 
-            // btn_somar
+            // divisao
             // 
-            this.btn_somar.Location = new System.Drawing.Point(181, 54);
-            this.btn_somar.Name = "btn_somar";
-            this.btn_somar.Size = new System.Drawing.Size(75, 60);
-            this.btn_somar.TabIndex = 6;
-            this.btn_somar.Text = "SOMAR";
-            this.btn_somar.UseVisualStyleBackColor = true;
-            this.btn_somar.Click += new System.EventHandler(this.btn_somar_Click);
+            this.divisao.Location = new System.Drawing.Point(136, 118);
+            this.divisao.Name = "divisao";
+            this.divisao.Size = new System.Drawing.Size(76, 21);
+            this.divisao.TabIndex = 13;
+            this.divisao.Text = "Dividir";
+            this.divisao.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.divisao.UseVisualStyleBackColor = true;
+            this.divisao.Click += new System.EventHandler(this.divisao_Click);
+            // 
+            // multiplicacao
+            // 
+            this.multiplicacao.Location = new System.Drawing.Point(136, 91);
+            this.multiplicacao.Name = "multiplicacao";
+            this.multiplicacao.Size = new System.Drawing.Size(76, 21);
+            this.multiplicacao.TabIndex = 12;
+            this.multiplicacao.Text = "Multiplicar";
+            this.multiplicacao.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.multiplicacao.UseVisualStyleBackColor = true;
+            this.multiplicacao.Click += new System.EventHandler(this.multiplicacao_Click);
+            // 
+            // subtracao
+            // 
+            this.subtracao.Location = new System.Drawing.Point(136, 64);
+            this.subtracao.Name = "subtracao";
+            this.subtracao.Size = new System.Drawing.Size(76, 21);
+            this.subtracao.TabIndex = 11;
+            this.subtracao.Text = "Subtrair";
+            this.subtracao.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.subtracao.Click += new System.EventHandler(this.subtracao_Click);
+            // 
+            // soma
+            // 
+            this.soma.Location = new System.Drawing.Point(136, 37);
+            this.soma.Name = "soma";
+            this.soma.Size = new System.Drawing.Size(76, 21);
+            this.soma.TabIndex = 10;
+            this.soma.Text = "Somar";
+            this.soma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.soma.UseVisualStyleBackColor = true;
+            this.soma.Click += new System.EventHandler(this.soma_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 163);
-            this.Controls.Add(this.btn_somar);
+            this.ClientSize = new System.Drawing.Size(225, 151);
+            this.Controls.Add(this.divisao);
+            this.Controls.Add(this.multiplicacao);
+            this.Controls.Add(this.subtracao);
+            this.Controls.Add(this.soma);
             this.Controls.Add(this.txt_resultado);
             this.Controls.Add(this.txt_num2);
             this.Controls.Add(this.txt_num1);
@@ -122,7 +161,10 @@
         private System.Windows.Forms.TextBox txt_num1;
         private System.Windows.Forms.TextBox txt_num2;
         private System.Windows.Forms.TextBox txt_resultado;
-        private System.Windows.Forms.Button btn_somar;
+        private System.Windows.Forms.Button divisao;
+        private System.Windows.Forms.Button multiplicacao;
+        private System.Windows.Forms.Button subtracao;
+        private System.Windows.Forms.Button soma;
     }
 }
 
