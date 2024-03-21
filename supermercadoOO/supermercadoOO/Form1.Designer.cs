@@ -49,7 +49,7 @@
             // 
             // txt_result
             // 
-            this.txt_result.Location = new System.Drawing.Point(33, 167);
+            this.txt_result.Location = new System.Drawing.Point(12, 163);
             this.txt_result.Name = "txt_result";
             this.txt_result.ReadOnly = true;
             this.txt_result.Size = new System.Drawing.Size(92, 20);
@@ -58,22 +58,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 150);
+            this.label4.Location = new System.Drawing.Point(9, 146);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.Size = new System.Drawing.Size(115, 13);
             this.label4.TabIndex = 23;
-            this.label4.Text = "resultado";
+            this.label4.Text = "quantidades a comprar";
             // 
             // txt_num2
             // 
-            this.txt_num2.Location = new System.Drawing.Point(33, 114);
+            this.txt_num2.Location = new System.Drawing.Point(12, 110);
             this.txt_num2.Name = "txt_num2";
             this.txt_num2.Size = new System.Drawing.Size(92, 20);
             this.txt_num2.TabIndex = 22;
             // 
             // txt_num1
             // 
-            this.txt_num1.Location = new System.Drawing.Point(33, 69);
+            this.txt_num1.Location = new System.Drawing.Point(12, 65);
             this.txt_num1.Name = "txt_num1";
             this.txt_num1.Size = new System.Drawing.Size(92, 20);
             this.txt_num1.TabIndex = 21;
@@ -81,20 +81,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 97);
+            this.label2.Location = new System.Drawing.Point(9, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 20;
-            this.label2.Text = "numero 2";
+            this.label2.Text = "Estoque atual";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 52);
+            this.label1.Location = new System.Drawing.Point(9, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.Size = new System.Drawing.Size(105, 13);
             this.label1.TabIndex = 19;
-            this.label1.Text = "numero 1";
+            this.label1.Text = "Capacidade estoque";
             // 
             // Form1
             // 
