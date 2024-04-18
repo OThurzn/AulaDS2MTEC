@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txt_nome = new System.Windows.Forms.TextBox();
+            this.txt_cpf = new System.Windows.Forms.TextBox();
+            this.btn_armazenar = new System.Windows.Forms.Button();
+            this.btn_mostrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_mostrar_nome = new System.Windows.Forms.Label();
+            this.lbl_mostrar_cpf = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -60,37 +60,39 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Digite o CPF:";
             // 
-            // textBox1
+            // txt_nome
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(111, 20);
-            this.textBox1.TabIndex = 2;
+            this.txt_nome.Location = new System.Drawing.Point(29, 59);
+            this.txt_nome.Name = "txt_nome";
+            this.txt_nome.Size = new System.Drawing.Size(111, 20);
+            this.txt_nome.TabIndex = 2;
             // 
-            // textBox2
+            // txt_cpf
             // 
-            this.textBox2.Location = new System.Drawing.Point(29, 118);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(111, 20);
-            this.textBox2.TabIndex = 3;
+            this.txt_cpf.Location = new System.Drawing.Point(29, 118);
+            this.txt_cpf.Name = "txt_cpf";
+            this.txt_cpf.Size = new System.Drawing.Size(111, 20);
+            this.txt_cpf.TabIndex = 3;
             // 
-            // button1
+            // btn_armazenar
             // 
-            this.button1.Location = new System.Drawing.Point(319, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 50);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Armazenar em Set";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_armazenar.Location = new System.Drawing.Point(319, 13);
+            this.btn_armazenar.Name = "btn_armazenar";
+            this.btn_armazenar.Size = new System.Drawing.Size(121, 50);
+            this.btn_armazenar.TabIndex = 4;
+            this.btn_armazenar.Text = "Armazenar em Set";
+            this.btn_armazenar.UseVisualStyleBackColor = true;
+            this.btn_armazenar.Click += new System.EventHandler(this.btn_armazenar_Click);
             // 
-            // button2
+            // btn_mostrar
             // 
-            this.button2.Location = new System.Drawing.Point(319, 97);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 50);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Mostrar em Get";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_mostrar.Location = new System.Drawing.Point(319, 97);
+            this.btn_mostrar.Name = "btn_mostrar";
+            this.btn_mostrar.Size = new System.Drawing.Size(121, 50);
+            this.btn_mostrar.TabIndex = 5;
+            this.btn_mostrar.Text = "Mostrar em Get";
+            this.btn_mostrar.UseVisualStyleBackColor = true;
+            this.btn_mostrar.Click += new System.EventHandler(this.btn_mostrar_Click);
             // 
             // label3
             // 
@@ -102,25 +104,25 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "nome do Aluno:";
             // 
-            // label4
+            // lbl_mostrar_nome
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(135, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 18);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Mostrar nome";
+            this.lbl_mostrar_nome.AutoSize = true;
+            this.lbl_mostrar_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mostrar_nome.Location = new System.Drawing.Point(135, 158);
+            this.lbl_mostrar_nome.Name = "lbl_mostrar_nome";
+            this.lbl_mostrar_nome.Size = new System.Drawing.Size(102, 18);
+            this.lbl_mostrar_nome.TabIndex = 7;
+            this.lbl_mostrar_nome.Text = "Mostrar nome";
             // 
-            // label5
+            // lbl_mostrar_cpf
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(137, 176);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 18);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Mostrar nome";
+            this.lbl_mostrar_cpf.AutoSize = true;
+            this.lbl_mostrar_cpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mostrar_cpf.Location = new System.Drawing.Point(137, 176);
+            this.lbl_mostrar_cpf.Name = "lbl_mostrar_cpf";
+            this.lbl_mostrar_cpf.Size = new System.Drawing.Size(102, 18);
+            this.lbl_mostrar_cpf.TabIndex = 9;
+            this.lbl_mostrar_cpf.Text = "Mostrar nome";
             // 
             // label6
             // 
@@ -137,14 +139,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 220);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbl_mostrar_cpf);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lbl_mostrar_nome);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_mostrar);
+            this.Controls.Add(this.btn_armazenar);
+            this.Controls.Add(this.txt_cpf);
+            this.Controls.Add(this.txt_nome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -158,13 +160,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txt_nome;
+        private System.Windows.Forms.TextBox txt_cpf;
+        private System.Windows.Forms.Button btn_armazenar;
+        private System.Windows.Forms.Button btn_mostrar;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_mostrar_nome;
+        private System.Windows.Forms.Label lbl_mostrar_cpf;
         private System.Windows.Forms.Label label6;
     }
 }

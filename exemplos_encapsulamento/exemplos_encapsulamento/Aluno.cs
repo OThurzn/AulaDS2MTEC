@@ -9,7 +9,7 @@ namespace exemplos_encapsulamento
     class Aluno
     {
         //criar atributo
-        private string nome;
+        private string nome, cpf;
         //A cada atributo necessário criar dois métodos (get e set)
         //Metodo sem retorno possui a palavra void e não possui a palavra return
         //O nome do método deve ser set + o nome do atributo com a primeira pavra em maiusculo (setNome)
@@ -19,6 +19,12 @@ namespace exemplos_encapsulamento
         public void setNome(string nome)
         {
             this.nome = nome;
+
+        }
+        public void setcpf(string cpf)
+        {
+            this.cpf = cpf;
+
         }
         //2 Método
         //Metodo com retorno, o tipo do metodo deve ser do mesmo tipo do atributoque ele está ligado
@@ -27,6 +33,10 @@ namespace exemplos_encapsulamento
         public string getNome ()
         {
             return this.nome;
+        }
+        public string getcpf()
+        {
+            return this.cpf;
         }
     }
 }
