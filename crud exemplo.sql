@@ -1,4 +1,4 @@
-database crud_csharp;
+create database crud_csharp;
 create table colaborador(
 	codigo_colaborador int primary key not null,
 	nome_colaborador varchar(50) not null,

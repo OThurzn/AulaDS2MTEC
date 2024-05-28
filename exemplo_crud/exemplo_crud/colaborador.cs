@@ -13,6 +13,7 @@ namespace exemplo_crud
 {
     class colaborador : conexao
     {
+        private string codigo;
         private string nome;
         private string sobrenome;
         private string cpf;
@@ -24,6 +25,15 @@ namespace exemplo_crud
         public string getNome()
         {
             return this.nome;
+        }
+
+        public void setCodigo(string codigo)
+        {
+            this.codigo = codigo;
+        }
+        public string getCodigo()
+        {
+            return this.codigo;
         }
 
         public void setSobrenome(string sobrenome)
@@ -69,6 +79,17 @@ namespace exemplo_crud
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
+        }
+        //Metódo para excluir os dados
+        public void Excluir()
+        {
+            string query = "delete from colaborador where codigo_colaborador= '" + getCodigo() + "'";
+            if (this.abrirconexao())
+            {
+                MySqlCommand cmd = new MySqlCommand(query, conectar);
+                cmd.ExecuteNonQuery();
+                this.fecharconexao();
+            }
         }
     }
 }
